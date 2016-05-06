@@ -2,7 +2,7 @@
   "cluster": "default",
   "service": "app-on-80",
   "desiredCount": 1,
-  "taskDefinition": "app80:7",
+  "taskDefinition": "app80:8",
   "deploymentConfiguration": {
     "maximumPercent": 100,
     "minimumHealthyPercent": 0
