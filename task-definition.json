@@ -1,0 +1,28 @@
+{
+    "containerDefinitions": [
+        {
+            "volumesFrom": [],
+            "memory": 64,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "mountPoints": [],
+            "name": "app-80",
+            "environment": [
+                {
+                    "name": "PARTY",
+                    "value": "YAAS-NAAW"
+                }
+            ],
+            "image": "gcollazo/php-demo:latest",
+            "cpu": 10
+        }
+    ],
+    "volumes": [],
+    "family": "app80"
+}
